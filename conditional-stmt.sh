@@ -1,3 +1,7 @@
+cat <<heredoc
+Script proves the use of: if, case stmts
+heredoc
+
 count=10
 
 if [ $count -eq 10 ]
@@ -36,3 +40,13 @@ then
 else
 	echo "in else"
 fi
+
+car="Tesla"
+case  $car  in
+	"Tesla")
+		echo "Tesla" ;;
+	"BMW")
+		echo "BMW" ;;
+    *)              
+		echo "Unknown brand" ;;
+esac
