@@ -1,0 +1,18 @@
+total 41
+drwxr-xr-x 1 Cosmin Dinu 197121   0 Jun 20 10:08 .
+drwxr-xr-x 1 Cosmin Dinu 197121   0 Jun 13 16:57 ..
+drwxr-xr-x 1 Cosmin Dinu 197121   0 Jun 20 10:02 .git
+-rw-r--r-- 1 Cosmin Dinu 197121 631 Jun 16 20:54 conditional-stmt.sh
+-rw-r--r-- 1 Cosmin Dinu 197121 342 Jun 16 20:33 conditional-stmt-with-inputs.sh
+-rw-r--r-- 1 Cosmin Dinu 197121   0 Jun 20 10:12 file_err_out.txt
+-rw-r--r-- 1 Cosmin Dinu 197121   0 Jun 20 10:12 file_out.txt
+-rw-r--r-- 1 Cosmin Dinu 197121   0 Jun 15 21:06 file-1.ext
+-rw-r--r-- 1 Cosmin Dinu 197121   0 Jun 15 20:58 file-1.tar
+-rw-r--r-- 1 Cosmin Dinu 197121 578 Jun 15 21:06 file-name-and-extension.sh
+-rw-r--r-- 1 Cosmin Dinu 197121 350 Jun 16 22:05 inputs.sh
+-rw-r--r-- 1 Cosmin Dinu 197121 412 Jun 16 20:54 loops.sh
+-rwxr-xr-x 1 Cosmin Dinu 197121 388 Jun 13 16:43 move-files-to-specific-dir-depending-on-filename.sh
+-rw-r--r-- 1 Cosmin Dinu 197121 159 Jun 20 10:12 script-output-demo.sh
+-rw-r--r-- 1 Cosmin Dinu 197121 363 Jun 15 18:13 source-1.sh
+-rw-r--r-- 1 Cosmin Dinu 197121  37 Jun 15 18:13 target-1.txt
+-rw-r--r-- 1 Cosmin Dinu 197121 288 Jun 15 18:13 target-2.txt
