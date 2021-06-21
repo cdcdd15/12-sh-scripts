@@ -10,5 +10,5 @@ echo ""
 echo "Next, improving the output by applying formatter to the decimal point number in order to make them all have the same number of decimals."
 awk -F',' '(NR==1){print $1 " " $2}; (NR>1){printf("%.1f %c\n",($2=="F" ? ($1-32) / 1.8 : $1),"C")}' $input_filename
 echo ""
-echo "Next, print the header (first row) and data rows between from 3 to 7"
-awk -F',' '(NR==1){print $1 " " $2}; (NR>2 && NR<7){printf("%.1f %c\n",($2=="F" ? ($1-32) / 1.8 : $1),"C")}' $input_filename
+echo "Next, print the header (first row) and data rows between from 3 to 7. For data rows up to 2 empty string is printed. The rest of the rows after index 7 are printed unmodified."
+awk -F',' '(NR==1){print $1 " " $2}; (NR>1 && NR<4){print("")}; (NR>2 && NR<7){printf("%.1f %c\n",($2=="F" ? ($1-32) / 1.8 : $1),"C")}; (NR>6){print}' $input_filename
