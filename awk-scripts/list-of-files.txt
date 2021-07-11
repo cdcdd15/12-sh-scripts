@@ -1,0 +1,8 @@
+file1.ert 56161
+file2.tre 12386654
+crazy.tru 1676151
+maxilam.max 51741
+minim.min 26871
+mydata.sdf 6656566
+reports.ert 626456425
+lastyear.yrt 25662

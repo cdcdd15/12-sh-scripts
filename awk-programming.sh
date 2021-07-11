@@ -3,7 +3,7 @@ awk '
 	BEGIN{print "Run once."}
 	END{print "Run once (at the end)."}
 ' temperature.csv
-echo 'Use awk too to aggregate values from input .csv file. -F is put to specify the data delimiter.'
+echo 'Use awk tool to aggregate values from input .csv file. -F is put to specify the data delimiter.'
 awk -F',' '
 	BEGIN{temp_sum=0; total_records=0; print "Begin calc of averate temparature."}
 	($2=="F"){temp_sum += ($1 - 32) / 1.8; total_records += 1;}
