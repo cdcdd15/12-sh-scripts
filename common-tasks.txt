@@ -1,0 +1,68 @@
+print the total number of lines in a text file: run in /c/javaDev/workspace/12-sh-scripts/awk-scripts
+wc -l list-of-files.txt
+
+list processes by memory and stop process (vezi fisier de docum pe VDI cu data de 11 iulie cu comenzi testate pe tectia)
+
+run awk script (not .sh script), run this in /c/javaDev/workspace/12-sh-scripts/awk-scripts folder, uses the awk script to process data from the .txt given as argument
+awk -f awk-programs.awk list-of-files.txt
+awk -f print-all-parsed-filter.awk list-of-files.txt
+
+print the total number of lines in a text file
+wc -l temperature.csv
+
+awk tool print all lines ending with e letter from all files in current folder
+awk '/e$/' *
+awk tool print all lines ending with e letter from certain file in current folder
+awk '/e$/' objects.txt
+
+Variable from the scope of the shell
+add one variable
+declare var1=20
+Print all
+declare -p
+
+Remove all file with certain extension
+rm *.gif
+List all files (from the current folder down recursively)
+with a certain extensions
+ls *.{mp3,exe,mp4}
+with a certain extension
+$ find -name '*.sh*'
+with "like" expression in their title
+$ find -name '*while*'
+
+Print number of "if" string occurrences of text in all files per each file in current folder (i = ignore case)
+grep -c -i "if" *
+
+Perform grep operation (search for text lines that contain the specified string) on all files in current directory (i = ignore case)
+grep -rni "string" *
+
+open file in nano editor (to save and exit: ctrl+o -> enter -> ctrl+x)
+nano file1.extension
+
+show contents of tile
+cat -n file1.extension
+
+copy contents of one file to another
+cat file1.extension > file2.extension
+
+list all files (inside current folder)
+ls -la
+
+copy or move files (from one folder to another) where in this case "12-sh-scrips" is the subfolder in the current folder
+mv "hello-world.sh" "12-sh-scrips"
+
+change file permissions to execute file
+chmod -x <filename>.<extension>
+
+rename file
+mv awk-programs.awk print-all.awk
+
+delete file
+rm <filename>.<extension>
+
+create new folder
+mkdir <foldername>
+
+create new file
+touch <filename>.<extension>
