@@ -1,5 +1,5 @@
 cat <<heredoc
-Caal this sctipt like this:
+Call this sctipt like this:
 ./inputs 10 20 30
 heredoc
 
