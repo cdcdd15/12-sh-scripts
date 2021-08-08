@@ -17,9 +17,11 @@ wc -l list-of-files.txt
 wc -l temperature.csv
 
 ■Variable from the scope of the shell
-add one variable
+- print env variables
+printenv
+- add one variable inside the shell
 declare var1=20
-Print all
+- Print all variables inside the shell
 declare -p
 
 ■Remove all file with certain extension
@@ -27,7 +29,7 @@ rm *.gif
 
 ■List all files (from the current folder down recursively)
 - with a certain extensions
-ls *.{mp3,exe,mp4}
+ls -la *.{mp3,exe,mp4}
 - with a certain extension
 $ find -name '*.sh*'
 - with "like" expression in their title
