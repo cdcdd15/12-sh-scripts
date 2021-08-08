@@ -53,15 +53,21 @@ chmod -x <filename>.<extension>
 ■basic
 - list all files (inside current folder)
 ls -la
+- create new folder
+mkdir <foldername>
+- navigate to folder
+cd <foldername>
+- print working folder
+pwd
+- navigate to upper folder
+cd ..
+- create new file
+touch <filename>.<extension>
 - rename file
 mv awk-programs.awk print-all.awk
 - delete file
 rm <filename>.<extension>
-- create new folder
-mkdir <foldername>
-- create new file
-touch <filename>.<extension>
 - open file in nano editor (to save and exit: ctrl+o -> enter -> ctrl+x)
 nano file1.extension
-- show contents of tile
+- show contents of tile directly in CLI
 cat -n file1.extension
